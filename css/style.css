@@ -1,0 +1,163 @@
+body {
+  background-color: rgb(241, 231, 231);
+}
+#navigation-bar {
+  background-color: #690100 !important;
+}
+/* #banner {
+  background-image: url("img/banner.jpg");
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+} */
+
+/* carousel css start */
+#carousel-section {
+  height: 100vh;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.caption {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+}
+img {
+  object-fit: cover;
+}
+
+/* carousel end */
+
+.is-transparent {
+  background-color: transparent;
+
+  height: 5rem;
+}
+
+.sec1-heigh {
+  height: 1000px;
+}
+.welcome-subtitle {
+  margin-top: -1rem;
+}
+.welcome-image {
+  height: 600px;
+  width: 600px;
+  border-right: 1rem solid rgb(138, 13, 11);
+}
+.welcome-text {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 61px;
+  color: rgb(138, 13, 11) !important;
+}
+
+.welcome-color {
+  color: rgb(88, 11, 10) !important;
+  font-weight: bold !important;
+}
+
+.choose-us-section {
+  height: 100vh;
+}
+.choose-us {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 60px;
+  color: #690100 !important;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.is-bold {
+  font-weight: bold !important;
+}
+
+.is-center {
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+.is-fixed {
+  position: fixed !important;
+  width: 100%;
+}
+
+.summary-h1 {
+  color: #fff !important;
+  font-size: 3.5em !important;
+}
+
+.summary-p {
+  color: #fff !important;
+  font-size: 1.5em !important;
+}
+.is-large-size {
+  font-size: 1.5em !important;
+  font-weight: bold !important;
+}
+
+/* give same color in the nav to the button */
+.is-elfa {
+  background-color: #690100 !important;
+  color: white !important;
+}
+
+/* section 2 */
+.top-nav {
+  margin-left: 6rem;
+}
+
+/* margin-top */
+.marg-top {
+  margin-top: rem;
+  color: #fff;
+}
+.marg-top-text {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  margin-top: 15rem;
+}
+
+/*summary of school and teacher-std ration section */
+#summary-section {
+  background-color: #690100 !important;
+  margin-bottom: 5rem;
+}
+
+.gallery-section {
+  background-color: #690100 !important;
+}
+.gallery-section-caption {
+  height: 25vh;
+}
+
+.is-gallery-text {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif !important;
+  font-size: 60px !important;
+  color: #ffcc00 !important;
+  text-align: center !important;
+}
+
+.is-absolute {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.is-relative {
+  position: relative;
+}
+/* carousel media query */
+@media (min-width: 1000px) {
+  .item {
+    height: 100vh;
+    width: 100vw;
+  }
+  img {
+    object-fit: cover;
+  }
+}
