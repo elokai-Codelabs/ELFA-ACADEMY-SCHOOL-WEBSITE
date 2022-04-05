@@ -1,10 +1,8 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 body {
   background-color: rgb(241, 231, 231);
+}
+#navigation-bar {
+  background-color: #720605 !important;
 }
 
 /* carousel css start */
@@ -31,6 +29,8 @@ img {
 /* carousel end */
 
 .is-transparent {
+  background-color: transparent;
+
   height: 5rem;
 }
 
@@ -154,15 +154,5 @@ img {
   }
   img {
     object-fit: cover;
-  }
-}
-
-@media (min-width: 700px) {
-  nav {
-    height: 100vh;
-    width: 100vw;
-  }
-  .column {
-    width: 100vw;
   }
 }
