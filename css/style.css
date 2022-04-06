@@ -146,6 +146,7 @@ img {
 .is-relative {
   position: relative;
 }
+
 /* carousel media query */
 @media (min-width: 1000px) {
   .item {
